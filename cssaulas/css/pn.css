@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.datemat{
+    font-style: italic;
+    font-size: 13px;
+}
+.logo-cab{
+    width: 40px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+body > header{
+    background-color: #0C2343;
+    padding: 16px 0;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 16px;
+}
+section h2, .articles article{
+    color: #0C2343;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.articles article img{
+    /*height: 180px;*/
+    border-radius: 30px;
+    width: 100%;
+}
+.articles article{
+    width: 30%;
+}
+
+.articles article h3{
+    color: #0C2343;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.articles article a{
+    background-color: #0C2343;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.articles article a:hover {
+    background-color: #2772DB;
+    color: white;
+    transition: 1s;
+}
+
+.articles article p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.articles article h3{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section h2{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sports{
+    background-color: rgba(127, 255, 212, 0.089);
+}
+#economy{
+    background-color: #fcdb771c;
+}
+#technology{
+    background-color: #ea00ff13;
+}
+#entertainment{
+    background-color: #fa3a0a1c;
+}
